@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 
-class Dishdetail extends Component {
+//{new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))}
+
+
+class DishDetail extends Component {
 
     renderComments(comments) {
         if (comments == null) {
@@ -60,12 +63,14 @@ class Dishdetail extends Component {
         const dishItem = this.renderDish(dish)
         const commentItem = this.renderComments(dish.comments)
         return (
-            <div className='row'>
+        <div className="container">
+            <div className="row">
                 {dishItem}
                 {commentItem}
             </div>
+        </div>
         )
     }
 }
 
-export default Dishdetail
+export default DishDetail
