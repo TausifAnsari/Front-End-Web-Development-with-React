@@ -1,3 +1,4 @@
+// Main Component
 import React, { Component }from 'react';
 //import { Navbar, NavbarBrand} from 'reactstrap';
 import Contact from './ContactComponent';
