@@ -6,6 +6,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-social": "^5.1.1",
     "cra-template": "1.0.3",
+    "cross-fetch": "^3.0.4",
     "font-awesome": "^4.7.0",
     "import": "0.0.6",
     "react": "^16.13.1",
